@@ -1,3 +1,7 @@
+import sys, pathlib
+
+sys.path.append(pathlib.Path(__file__).parent.__str__())
+
 from util import open_file
 from difflib import get_close_matches as __gcm
 
